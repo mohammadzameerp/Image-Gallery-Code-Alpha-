@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sg{
+    color: #f0f0f0;
+    z-index: 0;
+}
+
+
+button{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    color: black;
+}
+.img{
+    color:orange;
+    font-size: 4.7vw;
+    text-shadow: white;
+    text-align: center;
+    padding: 35px;
+    z-index: 10;
+   position: absolute;
+   top: 6px;
+   left: 30%;
+   text-shadow: 7px 8px 10px #000;
+}
+.name{
+    color: #f7ff0e;
+    font-size: 2.7vw;
+    margin-left: 110px;
+    padding: 32px;
+    font-size: 50px;
+    text-shadow: 7px 8px 10px rgb(35, 128, 205);
+}
+body{
+    background-color: #0E1224;
+    backdrop-filter: blur(1px);
+}
+body::-webkit-scrollbar{
+    background-color: rgb(22, 28, 41);
+    height: 51px;
+    width: 10px;
+    color: transparent;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(194, 248, 112);
+    border-radius: 10px;}
+p::selection{
+    color: rgb(255, 204, 0);
+    background-color: rgb(16, 20, 30);
+}
+@media (max-width:550px) {
+    p{
+        font-size: 5.5vw;
+    }
+}
+.nature{
+    height: 43vh;
+    width: 95%;
+    background-color: rgb(9, 12, 19);
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 27px;
+   transition: all ease-in 0.6s;
+   margin: 32px;
+
+}
+.nature::-webkit-scrollbar{
+    background-color: rgb(22, 28, 41);
+    height: 12px;
+    width: 20vw;
+    color: transparent;
+}
+.nature::-webkit-scrollbar-thumb{
+    background-color: rgb(194, 248, 112);
+    border-radius: 10px;}
+.nature:hover{
+    background: linear-gradient(145deg, #222436, #101a22);
+    box-shadow:  22px 22px 43px #1c1f41,
+                 -22px -22px 43px #1a1f35;
+                 transform: scale(1);
+              
+}
+img{
+    width: 50%;
+    margin: 12px;
+    display:inline-block;
+    image-resolution: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    border-radius: 20px;
+    transition: all ease 0.6s;
+    padding: 5px;
+  
+}
+img:hover{
+    transform: scale(1.08);
+    margin: 10px;
+    border-radius: 27px;
+box-shadow: inset 5px 5px 41px #171414,
+            inset -5px -5px 41px #070606;
+}
+.culture{
+    height: 43vh;
+    width: 95%;
+    background-color: rgb(9, 12, 19);
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 27px;
+    transition: all ease 0.6s;
+    margin: 32px;
+
+}
+.culture::-webkit-scrollbar{
+    background-color: rgb(22, 28, 41);
+    height: 12px;
+    width: 20vw;
+    color: transparent;
+}
+.culture::-webkit-scrollbar-thumb{
+    background-color: rgb(194, 248, 112);
+    border-radius: 10px;}
+.culture:hover{
+    background: linear-gradient(145deg, #222436, #101a22);
+    box-shadow:  22px 22px 43px #1c1f41,
+                 -22px -22px 43px #1a1f35;
+                 transform: scale(1.01);
+              
+}
+.models{
+    height: 43vh;
+    width: 95%;
+    background-color: rgb(9, 12, 19);
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 27px;
+   transition: all ease 0.6s;
+   margin: 32px;
+
+}
+.models::-webkit-scrollbar{
+    background-color: rgb(22, 28, 41);
+    height: 12px;
+    width: 20vw;
+    color: transparent;
+}
+.models::-webkit-scrollbar-thumb{
+    background-color: rgb(194, 248, 112);
+    border-radius: 10px;}
+.models:hover{
+    background: linear-gradient(145deg, #222436, #101a22);
+    box-shadow:  22px 22px 43px #1c1f41,
+                 -22px -22px 43px #1a1f35;
+                 transform: scale(1.01);
+              
+}
+.cars{
+    height: 43vh;
+    width: 95%;
+    background-color: rgb(9, 12, 19);
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 27px;
+   transition: all ease 0.6s;
+   margin: 32px;
+
+}
+.cars::-webkit-scrollbar{
+    background-color: rgb(22, 28, 41);
+    height: 12px;
+    width: 20vw;
+    color: transparent;
+}
+.cars::-webkit-scrollbar-thumb{
+    background-color: rgb(194, 248, 112);
+    border-radius: 10px;}
+.cars:hover{
+    background: linear-gradient(145deg, #222436, #101a22);
+    box-shadow:  22px 22px 43px #1c1f41,
+                 -22px -22px 43px #1a1f35;
+                 transform: scale(1.02);
+              
+}
+
+.popup{
+    
+    position:fixed;
+    top: 50% ;
+    left:50% ;
+    transform: translate(-50%, -50%) scale(0);
+    width: 80%;
+    max-width: 1600px;
+    height: 90vh;
+    max-height: 800px;
+    border-radius: 20px;
+    background: rgba(9, 11, 24, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    overflow: hidden;
+    transition: 1s;
+    border-radius: 47px;
+    background: linear-gradient(145deg, #0000009f, #1c1a1a98);
+    box-shadow:  40px 40px 80px #2926268b,
+                 -40px -40px 80px #2624248f;;
+}
+
+.popup.active{
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.popup.active .close-btn,
+.popup.active .image-name,
+.popup.active .index,
+.popup.active .large-image,
+.popup.active .arrow-btn{
+    opacity: 1;
+    transition: opacity .5s;
+    transition-delay: 1s;
+    box-shadow: none;
+    transform: none;
+    
+}
+
+.top-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 300;
+}
+
+
+.close-btn{
+    /* opacity: 0; */
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #f00;
+    cursor: pointer;
+}
+
+.arrow-btn{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.left-arrow{
+    left: 10px;
+}
+
+.right-arrow{
+    right: 10px;
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.arrow-btn:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.large-image{
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    opacity: 0;
+}
