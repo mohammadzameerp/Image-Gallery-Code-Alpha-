@@ -1,3 +1,4 @@
+//the JS code for image gallery functionality 
 const images = [...document.querySelectorAll('.pto')];
         const popup = document.querySelector('.popup');
         const closeBtn = document.querySelector('.close-btn');
